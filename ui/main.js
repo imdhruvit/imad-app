@@ -7,8 +7,8 @@ element.innerHTML='New Value';
 
 var img=document.getElementById('move');
 function moveRight(){
-    marginLeft=marginleft+10;
-    image.style.marginleft=marginleft+'px';
+    marginLeft=marginLeft+10;
+    image.style.marginLeft=marginLeft+'px';
 }
 img.onclick = function() {
     var interval=setInterval(moveRight,100);
